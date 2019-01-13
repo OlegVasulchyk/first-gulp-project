@@ -1,0 +1,51 @@
+.hero {
+    padding: 90px 0 130px 0;
+    background: #fff;
+
+    &__list {
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    &__items {
+        width: 27%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        &:first-child {
+            padding-top: 9px;
+        }
+
+        &:last-child {
+            padding-top: 31px;
+        }
+    }
+
+    &__icon {
+        margin-bottom: 27px;
+    }
+
+    &__header {
+        margin: 0 0 23px 0;
+        font: bold 1.375rem "MYRIADPRO-BOLD";
+
+        // &:first-child {
+        //     padding-top: 12px;
+        // }
+
+        // &:last-child {
+        //     padding-top: 24px;
+        // } не розумію чому не працює(
+    }
+
+    &__description {
+        font: 200 1.165rem "MYRIADPRO-Light";
+        margin: 0;
+        line-height: 1.5;
+        text-align: center;
+    }
+}
+
