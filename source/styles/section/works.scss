@@ -1,4 +1,91 @@
 .works {
     padding: 67px 0 116px 0;
-    background: green url(../images/Shape-5.jpg)
+    background: green url(../images/Shape-5.jpg);
+
+    &__list {
+        padding: 0px;
+        margin: 0 0 120px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__items {
+        width: 350px;
+        height: 262px;
+
+
+        &:nth-of-type(1) {
+            background: url(../images/Shape-8.jpg);
+            margin: 0 0 78px 0;
+        }
+
+        &:nth-of-type(2) {
+            background: url(../images/Shape-9.jpg);
+            margin: 0 0px 78px 0;
+        }
+        &:nth-of-type(3) {
+            background: url(../images/Shape-82.jpg);
+            margin: 0 0px 78px 0;
+        }
+
+        &:nth-of-type(4) {
+            background: url(../images/Shape-83.jpg);
+            // margin: 0 88px 0px 0;
+        }
+        &:nth-of-type(5) {
+            background: url(../images/Shape-85.jpg);
+            // margin: 0 88px 78px 0;
+        }
+        &:nth-of-type(6) {
+            background: url(../images/Shape-84.jpg);
+            // margin: 0 0px 0px 0;
+        }
+        
+    }
 }
+
+.menu__works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+    margin-top: 0px;
+    padding: 0;
+    
+
+     &__link {
+         margin-left: 30px;
+
+         &:first-child {
+             margin: 0;
+         }
+
+         &__item {
+            font: 600 1.5rem "MYRIADPRO-SEMIBOLD";
+            color: #fff;
+            padding: 17px 22px 17px 17px;
+            text-decoration: none;
+            text-transform: uppercase;
+            box-sizing: border-box;
+
+            &:hover {
+                border: 4px solid #fff;
+                padding: 13px 17px 13px 13px;
+                border-radius: 10px;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+    &__link__item--active {
+        background: #fff;
+                font: 600 1.5rem "MYRIADPRO-SEMIBOLD";
+                color: #a2a3a3;
+                padding: 15px 13px 17px 15px;
+                text-decoration: none;
+                text-transform: uppercase;
+                border-radius: 10px;
+                box-sizing: border-box;
+    }
+}
+
