@@ -1,0 +1,101 @@
+.meet {
+    padding: 82px 0 124px 0px;
+    background: #ff8125 url(../images/Shape-52.jpg);
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        width: 27%;
+        max-width: 342px;
+    }
+    &__image {
+        padding: 78px 0;
+        display: flex;
+        justify-content: center;
+        background: #e9e9e9;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 24px 0;
+        background: #fff;
+    }
+    
+    &__header {
+        margin: 0 0 20px 0;
+        font: bold 2.15rem "Carton-Slab";
+        text-transform: uppercase;
+        color: #383838;
+    }
+
+    &__hero {
+        margin: 0 0 20px 0;
+        font: bold 1.45rem "MYRIADPRO-BOLD";
+        color: #383838;
+    }
+
+    &__description {
+        width: 76%;
+        margin: 0px 0px 20px 0px;
+        padding: 0;
+        font: 400 1.34rem "MYRIADPRO-REGULAR";
+        color: #909090;
+    }
+
+    &__social {
+        margin-right: 15px;
+        text-decoration: none;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+
+    &__icon {
+        display: flex;
+        align-items: center;
+    
+    }
+}
+
+
+
+.fa-facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 44px;
+    height: 44px;
+    font-size: 1.8rem;
+    background: #2940a4;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.fa-tumblr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 44px;
+    height: 44px;
+    font-size: 1.8rem;
+    background: #24a8fc;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.fa-pinterest {
+    font-size: 3.15rem;
+    color: #d31131;
+}
