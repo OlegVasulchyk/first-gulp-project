@@ -16,6 +16,10 @@
         letter-spacing: 4px;
         line-height: 1.1;
         color: #fff;
+
+        &--form {
+            color: #d3d0d0;
+        }
         
     }
 
@@ -27,5 +31,11 @@
         text-align: center;
         color: #fff;
         opacity: 0.46;
+
+        &--form {
+            color: #d3d0d0;
+            opacity: 1;
+        }
     }
+
 }

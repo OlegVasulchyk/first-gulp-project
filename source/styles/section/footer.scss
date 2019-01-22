@@ -1,0 +1,74 @@
+.footer {
+    padding: 50px 0 65px 0;
+    background: #3c3c3d;
+    
+
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__social {
+        width: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 56px;
+        margin-right: 13px;
+        font-size: 2.5em;
+        text-decoration: none;
+        color: #3c3c3c;
+        border-radius: 50%;
+        background: #525252;
+
+        &:nth-child(2) {
+            margin-right: 17px;
+        }
+
+        &:nth-child(3) {
+            margin-right: 21px;
+        }
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+
+    &__information {
+        font: 400 1.3rem "MYRIADPRO-REGULAR";
+        color: #a2a3a3;
+
+        &::before {
+            content: 'Bloom Web Design ';
+            color: #fed67f;
+            font: 400 1.3rem "MYRIADPRO-REGULAR";
+        }
+    }
+
+    &__avtor {
+        font: 400 1.3rem "MYRIADPRO-REGULAR";
+        color: #a2a3a3;
+
+        &:before {
+            content: "|";
+            width: 1px;
+            height: 20px;
+            color: #a2a3a3;
+            margin: 0 15px;
+        }
+
+        &::after {
+            content: "Wordpress";
+            color: #fed67f;
+            font: 400 1.3rem "MYRIADPRO-REGULAR";
+        }
+    }
+}
